@@ -1,0 +1,528 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --text-color: #1f2937;
+}
+body{
+    color: var(--text-color);
+}
+.top1{
+    background-image: url('taun-stewart-AptKyEIayGc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 100%;
+    overflow: hidden;
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: rgb(208, 208, 208);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    margin-right: 180px;
+
+}
+.links ul a{
+    color: black;
+    font-size: 15px;
+    padding: 0 20px;
+    transition: background-color 0.5s ease;
+}
+.links ul a:hover{
+    border: solid 1px transparent;
+    background-color: rgb(242, 239, 239);
+    color:black;
+    padding: auto;
+    border-radius: 5px;
+}
+.last3{
+    position: relative;
+    left: 30px;
+}
+.title1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.title1 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.title1 p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 50px;
+}
+.title1 .btn{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:400px;
+    right: 30px;
+}
+.title1 .btn1{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    transition: background-color 0.5s ease;
+}
+.title1 .btn1:hover{
+    background-color: white;
+    color: black;
+}
+.title1 .btn2{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.5s ease;
+}
+.title1 .btn2:hover{
+    background-color: black;
+    color: white;
+}
+.top2{
+    background-image: url('matt-henry-1nVbppFJl-s-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 100%
+}
+.title2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.title2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.title2 p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+.title2 .btn{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:400px;
+    right: 30px;
+}
+.title2 .btn1{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    transition: background-color 0.5s ease;
+}
+.title2 .btn1:hover{
+    background-color: white;
+    color: black;
+}
+.title2 .btn2{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.5s ease;
+}
+.title2 .btn2:hover{
+    background-color: black;
+    color: white;
+}
+.top3{
+    background-image: url('jp-valery-Qm_n6aoYzDs-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 100%
+}
+.title3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.title3 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(233, 227, 227);
+    margin-bottom: 20px;
+}
+.title3 p{
+    font-size: 20px;
+    color: rgb(232, 229, 229);
+    margin-bottom: 50px;
+}
+.title3 .btn{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:400px;
+    right: 30px;
+}
+.title3 .btn1{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    transition: background-color 0.5s ease;
+}
+.title3 .btn1:hover{
+    background-color: white;
+    color: black;
+}
+.title3 .btn2{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.5s ease;
+}
+.title3 .btn2:hover{
+    background-color: black;
+    color: white;
+}
+.top4{
+    background-image: url('maxim-hopman-1xTulJUOg9A-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 100%
+}
+.title4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.title4 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 20px;
+}
+.title4 p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+.title4 .btn{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:400px;
+    right: 30px;
+}
+.title4 .btn1{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    transition: background-color 0.5s ease;
+}
+.title4 .btn1:hover{
+    background-color: white;
+    color: black;
+}
+.title4 .btn2{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.5s ease;
+}
+.title4 .btn2:hover{
+    background-color: black;
+    color: white;
+}
+.top5{
+    background-image: url('seth-kane-XOEAHbE_vO8-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 100%
+}
+.title5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.title5 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.title5 p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 50px;
+}
+.title5 .btn{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:400px;
+    right: 30px;
+}
+.title5 .btn1{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    transition: background-color 0.5s ease;
+}
+.title5 .btn1:hover{
+    background-color: white;
+    color: black;
+}
+.title5 .btn2{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.5s ease;
+}
+.title5 .btn2:hover{
+    background-color: black;
+    color: white;
+}
+.top6{
+    background-image: url('giorgio-trovato-mIlvCv21W1s-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 100%
+}
+.title6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.title6 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.title6 p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 50px;
+}
+.title6 .btn{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:400px;
+    right: 30px;
+}
+.title6 .btn1{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    transition: background-color 0.5s ease;
+}
+.title6 .btn1:hover{
+    background-color: white;
+    color: black;
+}
+.title6 .btn2{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.5s ease;
+}
+.title1 .btn2:hover{
+    background-color: black;
+    color: white;
+}
+.top7{
+    background-image: url('roger-starnes-sr-VUuBpG5avLY-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 100%
+}
+.title7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.title7 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(245, 240, 240);
+    margin-bottom: 20px;
+}
+.title7 p{
+    font-size: 20px;
+    color: rgb(250, 249, 249);
+    margin-bottom: 50px;
+}
+.title7 .btn{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:400px;
+    right: 30px;
+}
+.title7 .btn1{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    transition: background-color 0.5s ease;
+}
+.title7 .btn1:hover{
+    background-color: white;
+    color: black;
+}
+.title7 .btn2{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.5s ease;
+}
+.title7 .btn2:hover{
+    background-color: black;
+    color: white;
+}
+  
+  a[href^="#"] {
+    text-decoration: none;
+  }
+  :target:before {
+    content: "";
+    display: block;
+    height: 100px;
+    margin: -100px 0 0;
+  }
+ footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+    .footer-content h3{
+        font-size: 20px;
+    }
